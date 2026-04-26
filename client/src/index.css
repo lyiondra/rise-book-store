@@ -1,3 +1,60 @@
 body {
-  background-color: #f4f4f4; /* A clean, neutral look for the bookstore */
+  background-color: #0a0a0a; /* Deep black */
+  color: #e0e0e0; /* Soft white text */
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #0070f3; /* Electric blue accent */
+}
+.book-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #050505;
+  scrollbar-width: thin;
+  scrollbar-color: #00ff41 #050505;
+}
+
+/* Custom glow effect for the Hero title */
+h1 {
+  text-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+}
+
+/* Smooth transitions for the book cards */
+.group {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #050505;
+  scrollbar-width: thin;
+  scrollbar-color: #00ff41 #050505;
+}
+
+/* Custom glow effect for the Hero title */
+h1 {
+  text-shadow: 0 0 20px rgba(0, 255, 65, 0.3);
+}
+
+/* Smooth transitions for the book cards */
+.group {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
 }
